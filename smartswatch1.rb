@@ -1,6 +1,9 @@
-#Debo crear un metodo
-#recibir un arreglo
 
+#método llamado clear_steps que
+#reciba un arreglo y descarte todos los valores que no sean números 
+#o sean menores a 200 o mayor a
+#100000. Los valores deben quedar como enteros (Integers). 
+#El método debe retornar el arreglo filtrado
 
 
 def clear_steps(array) #se recibe el arreglo
