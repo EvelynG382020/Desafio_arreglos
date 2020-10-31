@@ -5,7 +5,7 @@ info = ARGV[0].to_i #info ingresada por el usuario
 
 data.each do |data| #leer cada valor
     if data.to_i < info #data pasarlo a integer y ver si es menor a los datos que ingresa el usuario
-        filtered.push(data) #guardar el valor en el contenedor o nuevo arreglo
+        filtered.push(data.to_i) #guardar el valor en el contenedor o nuevo arreglo
     end
 end
 
