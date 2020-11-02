@@ -7,7 +7,7 @@
 
 
 def clear_steps(array) #se recibe el arreglo
-   filtered = [] # contenedor 
+   filtered = [] # contenedor o nuevo arreglo que lo guardará
    filtered = array.map { |ele| ele.to_i } #el arreglo que recibo lo filtro y convierto en entero
    filtered.reject! { |ele| ele < 200 || ele > 100000}
    
