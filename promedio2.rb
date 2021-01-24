@@ -1,3 +1,7 @@
+#Crear el programa promedio2.rb con el método compara_arrays 
+#que reciba 2 arreglos y calcule el promedio de ambos, 
+#devolviendo el mayor de los promedios.
+
 def compara_arrays(array1, array2)
     if promedio(array1) > promedio(array2)
         return promedio(array1)
