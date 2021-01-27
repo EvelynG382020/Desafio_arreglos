@@ -4,9 +4,9 @@
 
 def compara_arrays(array1, array2)
     if promedio(array1) > promedio(array2)
-        return promedio(array1)
+        promedio(array1)
     else  
-        return promedio(array2)
+        promedio(array2)
     end
 end
 
