@@ -10,11 +10,8 @@ El método debe retornar el arreglo filtrado
 def clear_steps(array) #el método recibe el arreglo
    filtered = [] # contenedor o nuevo arreglo que lo guardará
    filtered = array.map { |ele| ele.to_i } #el arreglo que recibo lo convierto en entero
-   filtered.reject! { |ele| ele < 200 || ele > 100000} #con reject voy a descartar y se modificará mi arreglo
-
-   
-   filtered 
-   
+   filtered.reject! { |ele| ele < 200 || ele > 100000} #con reject voy a descartar y se modificará mi arreglo 
+   filtered
 end
 
 
