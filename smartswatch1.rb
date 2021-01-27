@@ -13,7 +13,7 @@ def clear_steps(array) #el método recibe el arreglo
    filtered.reject! { |ele| ele < 200 || ele > 100000} #con reject voy a descartar y se modificará mi arreglo
 
    
-   return filtered 
+   filtered 
    
 end
 
